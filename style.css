@@ -449,9 +449,10 @@ a {
 .mobile-navigation__inner {
   display: flex;
   width: 100%;
+  min-height: 100dvh;
   flex-direction: column;
   justify-content: center;
-  padding: 110px 30px 40px;
+  padding: 80px 30px 40px;
 }
 
 .mobile-navigation__link {
@@ -465,7 +466,9 @@ a {
   line-height: 1;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  transition: color 0.3s ease, padding-left 0.3s var(--ease-out);
+  transition:
+    color 0.3s ease,
+    padding-left 0.3s var(--ease-out);
 }
 
 .mobile-navigation__link:hover {
@@ -481,6 +484,21 @@ a {
 
 .mobile-navigation__actions .button {
   flex: 1;
+}
+
+@media (max-width: 480px) {
+  .mobile-navigation__inner {
+    padding: 70px 24px 30px;
+  }
+
+  .mobile-navigation__link {
+    padding: 11px 0;
+    font-size: clamp(30px, 9vw, 44px);
+  }
+
+  .mobile-navigation__actions {
+    margin-top: 28px;
+  }
 }
 
 
