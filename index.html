@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Infinity Gym Malawi — training, fitness and community in Maselema, Blantyre.">
+  <meta name="theme-color" content="#080808">
+  <title>Infinity Gym Malawi — Train With Purpose</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =========================================================
+       PRELOADER
+       Replace assets/images/infinity-logo.png with real logo.
+  ========================================================== -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <img
+        class="preloader__logo"
+        src="assets/images/logo.png"
+        alt="Infinity Gym"
+        width="180"
+        height="auto"
+      >
+      <div class="preloader__line">
+        <span class="preloader__progress"></span>
+      </div>
+      <span class="preloader__label">INFINITY GYM</span>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       HEADER / NAVIGATION
+  ========================================================== -->
+  <header class="site-header" id="site-header">
+    <nav class="navbar container" id="navbar" aria-label="Main navigation">
+
+      <a class="navbar__brand" href="#home" aria-label="Infinity Gym home">
+        <img
+          class="navbar__logo"
+          src="assets/images/logo.png"
+          alt="Infinity Gym"
+          width="130"
+          height="auto"
+        >
+      </a>
+
+      <button
+        class="navbar__toggle"
+        id="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="mobile-navigation"
+      >
+        <span class="navbar__toggle-line"></span>
+        <span class="navbar__toggle-line"></span>
+      </button>
+
+      <div class="navbar__links" id="desktop-navigation">
+        <a class="navbar__link is-active" href="#home">Home</a>
+        <a class="navbar__link" href="#about">About</a>
+        <a class="navbar__link" href="#training">Training</a>
+        <a class="navbar__link" href="#community">Community</a>
+        <a class="navbar__link" href="#reviews">Reviews</a>
+        <a class="navbar__link" href="#visit">Visit</a>
+      </div>
+
+      <a
+        class="button button--nav"
+        href="https://wa.me/265882491366?text=Hi%20Infinity%20Gym%2C%20I%27d%20like%20to%20learn%20more%20about%20joining%20the%20gym."
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        WhatsApp Us
+      </a>
+
+    </nav>
+
+    <!-- Mobile navigation -->
+    <div class="mobile-navigation" id="mobile-navigation" aria-hidden="true">
+      <div class="mobile-navigation__inner">
+        <a class="mobile-navigation__link" href="#home">Home</a>
+        <a class="mobile-navigation__link" href="#about">About</a>
+        <a class="mobile-navigation__link" href="#training">Training</a>
+        <a class="mobile-navigation__link" href="#community">Community</a>
+        <a class="mobile-navigation__link" href="#reviews">Reviews</a>
+        <a class="mobile-navigation__link" href="#visit">Visit</a>
+
+        <div class="mobile-navigation__actions">
+          <a
+            class="button button--primary"
+            href="https://wa.me/265882491366?text=Hi%20Infinity%20Gym%2C%20I%27d%20like%20to%20learn%20more%20about%20joining%20the%20gym."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Enquire on WhatsApp
+          </a>
+
+          <a class="button button--outline" href="tel:+265882491366">
+            Call Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- =======================================================
+         HERO
+    ======================================================== -->
+    <section class="hero section" id="home">
+
+      <div class="hero__media">
+        <img
+          class="hero__image"
+          src="assets/images/hero.png"
+          alt="Infinity Gym training environment"
+          width="1920"
+          height="1200"
+          fetchpriority="high"
+        >
+      </div>
+
+      <div class="hero__overlay"></div>
+
+      <div class="hero__content container">
+        <span class="eyebrow hero__eyebrow">INFINITY GYM · MASELEMA · BLANTYRE</span>
+
+        <h1 class="hero__title">
+          TRAIN
+          <span>WITH PURPOSE.</span>
+        </h1>
+
+        <p class="hero__text">
+          Build strength. Chase progress. Become more capable.
+        </p>
+
+        <div class="hero__actions">
+          <a
+            class="button button--primary"
+            href="https://wa.me/265882491366?text=Hi%20Infinity%20Gym%2C%20I%27d%20like%20to%20learn%20more%20about%20joining%20the%20gym."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Enquire on WhatsApp
+          </a>
+
+          <a class="button button--ghost" href="#about">
+            Explore Infinity
+          </a>
+        </div>
+      </div>
+
+      <a class="hero__scroll" href="#about" aria-label="Scroll to discover Infinity Gym">
+        <span class="hero__scroll-line"></span>
+        <span>SCROLL TO EXPLORE</span>
+      </a>
+
+    </section>
+
+
+    <!-- =======================================================
+         ABOUT / MORE THAN A GYM
+    ======================================================== -->
+    <section class="about section section--dark" id="about">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <span class="eyebrow">01 · MORE THAN A GYM</span>
+
+          <h2 class="section-heading__title">
+            A PLACE TO
+            <span>PUT IN THE WORK.</span>
+          </h2>
+        </div>
+
+        <div class="about__grid">
+
+          <div class="about__copy reveal">
+            <p class="about__lead">
+              Training is more than showing up. It is the decision to keep
+              working toward what you want to become.
+            </p>
+
+            <p>
+              Infinity Gym brings training, fitness and community together
+              in Maselema, Blantyre — giving people a place to show up,
+              put in the work and keep progressing.
+            </p>
+
+            <a
+              class="text-link"
+              href="https://wa.me/265882491366?text=Hi%20Infinity%20Gym%2C%20I%27d%20like%20to%20learn%20more%20about%20joining%20the%20gym."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              START YOUR JOURNEY
+              <span>↗</span>
+            </a>
+          </div>
+
+          <div class="about__image-wrap reveal">
+            <div class="image-frame">
+              <img
+                class="about__image"
+                src="assets/images/exp.png"
+                alt="Infinity Gym training"
+                width="1000"
+                height="1200"
+                loading="lazy"
+              >
+            </div>
+
+            <span class="image-frame__label">INFINITY / 01</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =======================================================
+         TRAINING / GOALS
+    ======================================================== -->
+    <section class="training section section--light" id="training">
+
+      <div class="container">
+
+        <div class="section-heading section-heading--dark reveal">
+          <span class="eyebrow">02 · THE WORK</span>
+
+          <h2 class="section-heading__title">
+            TRAIN FOR
+            <span>WHAT MATTERS.</span>
+          </h2>
+
+          <p class="section-heading__description">
+            Whether you're building strength, improving fitness or working
+            toward a personal goal, every session starts with showing up.
+          </p>
+        </div>
+
+        <div class="training__grid">
+
+          <article class="training-card reveal">
+            <div class="training-card__number">01</div>
+
+            <div class="training-card__image-wrap">
+              <img
+                class="training-card__image"
+                src="assets/images/train-2.png"
+                alt="Strength training at Infinity Gym"
+                width="900"
+                height="1100"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="training-card__content">
+              <span class="training-card__label">BUILD</span>
+              <h3 class="training-card__title">STRENGTH</h3>
+
+              <a
+                class="training-card__link"
+                href="https://wa.me/265882491366?text=Hi%20Infinity%20Gym%2C%20I%27d%20like%20to%20enquire%20about%20your%20training%20options."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Enquire
+                <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+
+          <article class="training-card reveal">
+            <div class="training-card__number">02</div>
+
+            <div class="training-card__image-wrap">
+              <img
+                class="training-card__image"
+                src="assets/images/train-1.png"
+                alt="Fitness training at Infinity Gym"
+                width="900"
+                height="1100"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="training-card__content">
+              <span class="training-card__label">IMPROVE</span>
+              <h3 class="training-card__title">FITNESS</h3>
+
+              <a
+                class="training-card__link"
+                href="https://wa.me/265882491366?text=Hi%20Infinity%20Gym%2C%20I%27d%20like%20to%20enquire%20about%20your%20training%20options."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Enquire
+                <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+
+          <article class="training-card reveal">
+            <div class="training-card__number">03</div>
+
+            <div class="training-card__image-wrap">
+              <img
+                class="training-card__image"
+                src="assets/images/train-3.png"
+                alt="Training at Infinity Gym"
+                width="900"
+                height="1100"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="training-card__content">
+              <span class="training-card__label">CHASE</span>
+              <h3 class="training-card__title">YOUR GOALS</h3>
+
+              <a
+                class="training-card__link"
+                href="https://wa.me/265882491366?text=Hi%20Infinity%20Gym%2C%20I%27d%20like%20to%20enquire%20about%20your%20training%20options."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Enquire
+                <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =======================================================
+         MOTIVATION
+    ======================================================== -->
+    <section class="statement section" id="statement">
+
+      <div class="statement__media">
+        <img
+          class="statement__image"
+          src="assets/images/redeem.png"
+          alt="Training at Infinity Gym"
+          width="1920"
+          height="1200"
+          loading="lazy"
+        >
+      </div>
+
+      <div class="statement__overlay"></div>
+
+      <div class="statement__content container reveal">
+        <span class="eyebrow">THE MINDSET</span>
+
+        <h2 class="statement__title">
+          DAY BY DAY.
+          <br>
+          REP AFTER REP.
+        </h2>
+
+        <p class="statement__text">
+          Progress is built through consistency.
+        </p>
+      </div>
+
+    </section>
+
+
+    <!-- =======================================================
+         COMMUNITY
+    ======================================================== -->
+    <section class="community section section--dark" id="community">
+
+      <div class="container">
+
+        <div class="community__top">
+
+          <div class="section-heading reveal">
+            <span class="eyebrow">03 · COMMUNITY</span>
+
+            <h2 class="section-heading__title">
+              SHOW UP.
+              <span>TRAIN TOGETHER.</span>
+            </h2>
+          </div>
+
+          <p class="community__intro reveal">
+            The work is individual. The environment doesn't have to be.
+          </p>
+
+        </div>
+
+        <div class="community__gallery">
+
+          <div class="community__gallery-item community__gallery-item--large reveal">
+            <img
+              src="assets/images/com-1.png"
+              alt="Infinity Gym community"
+              width="1400"
+              height="1000"
+              loading="lazy"
+            >
+          </div>
+
+          <div class="community__gallery-item reveal">
+            <img
+              src="assets/images/com-2.png"
+              alt="Infinity Gym members"
+              width="900"
+              height="1100"
+              loading="lazy"
+            >
+          </div>
+
+        </div>
+
+        <div class="community__cta reveal">
+          <span>READY TO PUT IN THE WORK?</span>
+
+          <a
+            class="button button--primary"
+            href="https://wa.me/265882491366?text=Hi%20Infinity%20Gym%2C%20I%27d%20like%20to%20learn%20more%20about%20joining%20the%20gym."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Enquire on WhatsApp
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =======================================================
+         REVIEWS
+    ======================================================== -->
+    <section class="reviews section section--light" id="reviews">
+
+      <div class="container">
+
+        <div class="section-heading section-heading--dark reveal">
+          <span class="eyebrow">04 · MEMBER VOICES</span>
+
+          <h2 class="section-heading__title">
+            WORDS FROM
+            <span>THE GYM.</span>
+          </h2>
+        </div>
+
+        <div class="reviews__grid">
+
+          <article class="review-card reveal">
+            <div class="review-card__stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+
+            <blockquote class="review-card__quote">
+              “It's very spacious. Good equipment.”
+            </blockquote>
+
+            <div class="review-card__author">
+              <span class="review-card__name">Fabia Nia Kapito</span>
+              <span class="review-card__meta">Google Review</span>
+            </div>
+          </article>
+
+
+          <article class="review-card reveal">
+            <div class="review-card__stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+
+            <blockquote class="review-card__quote">
+              “It's a great place for fitness.”
+            </blockquote>
+
+            <div class="review-card__author">
+              <span class="review-card__name">Aibaba Hussien</span>
+              <span class="review-card__meta">Google Review</span>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="reviews__action reveal">
+          <a
+            class="text-link text-link--dark"
+            href="https://goo.gl/maps/bEjvYMzTseCRmEnD7?g_st=ac"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            VIEW FULL REVIEWS
+            <span>↗</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =======================================================
+         VISIT / CONTACT
+    ======================================================== -->
+    <section class="visit section section--dark" id="visit">
+
+      <div class="container">
+
+        <div class="visit__grid">
+
+          <div class="visit__content reveal">
+
+            <span class="eyebrow">05 · FIND INFINITY</span>
+
+            <h2 class="visit__title">
+              COME
+              <span>TRAIN.</span>
+            </h2>
+
+            <p class="visit__text">
+              Find Infinity Gym in Maselema, Blantyre.
+            </p>
+
+            <div class="visit__details">
+
+              <div class="visit__detail">
+                <span class="visit__detail-label">LOCATION</span>
+                <strong>Maselema, Blantyre</strong>
+              </div>
+
+              <div class="visit__detail">
+                <span class="visit__detail-label">PHONE</span>
+                <a href="tel:+265882491366">+265 882 491 366</a>
+              </div>
+
+            </div>
+
+            <div class="visit__actions">
+
+              <a
+                class="button button--primary"
+                href="https://wa.me/265882491366?text=Hi%20Infinity%20Gym%2C%20I%27d%20like%20to%20know%20your%20opening%20hours%20and%20location."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ask on WhatsApp
+              </a>
+
+              <a class="button button--outline-light" href="tel:+265882491366">
+                Call Now
+              </a>
+
+            </div>
+
+          </div>
+
+
+          <div class="visit__map-wrap reveal">
+
+            <a
+              class="visit__map"
+              href="https://goo.gl/maps/bEjvYMzTseCRmEnD7?g_st=ac"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open Infinity Gym location in Google Maps"
+            >
+              <div class="visit__map-grid"></div>
+
+              <div class="visit__map-marker">
+                <span class="visit__map-marker-dot"></span>
+                <span>INFINITY GYM</span>
+              </div>
+
+              <span class="visit__map-link">
+                OPEN DIRECTIONS ↗
+              </span>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =======================================================
+         FINAL CTA
+    ======================================================== -->
+    <section class="final-cta section" id="final-cta">
+
+      <div class="final-cta__glow"></div>
+
+      <div class="container final-cta__content reveal">
+
+        <span class="eyebrow">READY?</span>
+
+        <h2 class="final-cta__title">
+          PUT IN
+          <span>THE WORK.</span>
+        </h2>
+
+        <p class="final-cta__text">
+          Start your conversation with Infinity Gym today.
+        </p>
+
+        <div class="final-cta__actions">
+
+          <a
+            class="button button--primary button--large"
+            href="https://wa.me/265882491366?text=Hi%20Infinity%20Gym%2C%20I%27d%20like%20to%20learn%20more%20about%20joining%20the%20gym."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Enquire on WhatsApp
+          </a>
+
+          <a
+            class="button button--outline-light button--large"
+            href="tel:+265882491366"
+          >
+            Call Now
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================================================
+       FLOATING WHATSAPP
+  ========================================================== -->
+  <a
+    class="whatsapp-float"
+    id="whatsapp-float"
+    href="https://wa.me/265882491366?text=Hi%20Infinity%20Gym%2C%20I%27d%20like%20to%20learn%20more%20about%20joining%20the%20gym."
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat with Infinity Gym on WhatsApp"
+  >
+    <span class="whatsapp-float__icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" role="img">
+        <path d="M20.52 3.48A11.83 11.83 0 0 0 12.08 0C5.54 0 .21 5.32.21 11.86c0 2.09.55 4.13 1.59 5.92L.1 24l6.37-1.67a11.85 11.85 0 0 0 5.61 1.42h.01c6.53 0 11.85-5.32 11.85-11.86 0-3.17-1.23-6.14-3.42-8.41ZM12.09 21.7h-.01a9.83 9.83 0 0 1-5.01-1.37l-.36-.21-3.78.99 1.01-3.68-.23-.38a9.82 9.82 0 0 1-1.51-5.19C2.2 6.43 6.63 2 12.08 2a9.83 9.83 0 0 1 7 2.91 9.82 9.82 0 0 1 2.9 7c0 5.46-4.43 9.89-9.89 9.89Zm5.42-7.41c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.47-.89-.79-1.49-1.76-1.66-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.09 4.49.71.31 1.26.5 1.69.64.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z"/>
+      </svg>
+    </span>
+
+    <span class="whatsapp-float__text">WhatsApp</span>
+  </a>
+
+
+  <!-- =========================================================
+       FOOTER
+  ========================================================== -->
+  <footer class="site-footer">
+
+    <div class="container">
+
+      <div class="site-footer__top">
+
+        <a class="site-footer__brand" href="#home" aria-label="Infinity Gym home">
+          <img
+            class="site-footer__logo"
+            src="assets/images/infinity-logo.png"
+            alt="Infinity Gym"
+            width="150"
+            height="auto"
+            loading="lazy"
+          >
+        </a>
+
+        <div class="site-footer__links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#training">Training</a>
+          <a href="#community">Community</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#visit">Visit</a>
+        </div>
+
+        <div class="site-footer__contact">
+          <span>MASELEMA · BLANTYRE</span>
+          <a href="tel:+265882491366">+265 882 491 366</a>
+        </div>
+
+      </div>
+
+      <div class="site-footer__bottom">
+
+        <span class="site-footer__copyright">
+          © Infinity Gym Malawi
+        </span>
+
+        <div class="site-footer__credit">
+          <span>Designed by Hipronia</span>
+          <a
+            href="https://wa.me/265999469705?text=Hi%20Hipronia%2C%20I%27d%20like%20to%20enquire%20about%20a%20website."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            contact on WhatsApp 》
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
